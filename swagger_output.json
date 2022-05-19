@@ -1,0 +1,79 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "API de gestão de funcionários",
+    "description": "Documentation of Employees boilerplate"
+  },
+  "host": "localhost:3333",
+  "basePath": "/",
+  "tags": [
+    {
+      "name": "Employees",
+      "description": "Employees endpoints"
+    }
+  ],
+  "schemes": [
+    "http",
+    "https"
+  ],
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/": {
+      "get": {
+        "description": "",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/employees/": {
+      "get": {
+        "description": "",
+        "parameters": [
+          {
+            "name": "name",
+            "in": "query",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Employees": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "employees": "Jhon Doe"
+        }
+      }
+    },
+    "FindEmployee": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "employees": "Jhon Doe"
+        }
+      },
+      "required": [
+        "name"
+      ]
+    }
+  }
+}
