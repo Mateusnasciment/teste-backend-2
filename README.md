@@ -1,3 +1,17 @@
+
+
+Para inicializar o código, utilize a imagem Docker para iniciar a imagem do banco MySQL com o comando `docker-compose up -d`.
+
+Para gerar os seeds, é necessário ter o Sequelize CLI instalado. Utilize o comando `sequelize db:seed:all` para executar os seeds.
+
+Com os seeds instalados, você terá dados randomizados populados no banco.
+
+A documentação está disponível em `localhost:3000/api`.
+
+
+##############
+
+
 # Desafio Desenvolvedor Back-end Pleno<br/>Onyma By Bencorp
 
 O objetivo deste projeto é avaliar o desenvolvimento de uma aplicação com API Rest e persistência de dados.
@@ -95,3 +109,10 @@ Você desenvolverá uma API que permita a gestão de cada empresa separadamente,
 
 - Copiar o repositório de candidatos.
 - Pedir alguém para fazer o projeto para você.
+
+
+##
+
+c
+  
+
