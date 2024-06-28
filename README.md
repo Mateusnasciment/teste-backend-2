@@ -12,7 +12,7 @@ A documentação está disponível em `localhost:3000/api`.
 ##############
 
 
-# Desafio Desenvolvedor Back-end Pleno<br/>Onyma By Bencorp
+# Desafio Desenvolvedor Back-end SR
 
 O objetivo deste projeto é avaliar o desenvolvimento de uma aplicação com API Rest e persistência de dados.
 
